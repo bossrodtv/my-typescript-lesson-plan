@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "day1": "tsx src/day1-fundamentals-i/index.ts",
+    "day2": "tsx src/day2-fundamentals-ii/index.ts",
+    "day3": "tsx src/day3-fundamentals-ii/index.ts",
+    "day4": "tsx src/day4-advanced-types/index.ts",
+    "day5": "tsx src/day5-objects/index.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.1",
+    "typescript": "^5.5.3"
+  }
+}
